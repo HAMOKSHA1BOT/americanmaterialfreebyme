@@ -124,54 +124,7 @@ body {
     line-height: 1.6;
 }
 
-.form-fields {
-    margin-bottom: 30px;
-}
 
-.form-group {
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.form-group label {
-    display: block;
-    color: #333;
-    font-weight: 600;
-    margin-bottom: 8px;
-    font-size: 14px;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 15px;
-    border: 2px solid #e9ecef;
-    border-radius: 10px;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
-    background: white;
-}
-
-.form-group input:focus {
-    outline: none;
-    border-color: #25D366;
-    box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.1);
-}
-
-.form-group input::placeholder {
-    color: #999;
-}
-
-.whatsapp-button:disabled {
-    background: #ccc;
-    cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
-}
-
-.whatsapp-button:disabled:hover {
-    transform: none;
-    box-shadow: none;
-}
 
 .whatsapp-button {
     background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
@@ -405,20 +358,7 @@ body {
         line-height: 1.5;
     }
     
-    .form-group {
-        margin-bottom: 18px;
-    }
-    
-    .form-group label {
-        font-size: 13px;
-        margin-bottom: 6px;
-    }
-    
-    .form-group input {
-        padding: 14px;
-        font-size: 16px; /* Prevents zoom on iOS */
-        border-radius: 8px;
-    }
+
     
     .whatsapp-button {
         padding: 16px 30px;
@@ -550,10 +490,7 @@ body {
         font-size: 13px;
     }
     
-    .form-group input {
-        padding: 12px;
-        font-size: 16px;
-    }
+
     
     .whatsapp-button {
         padding: 14px 25px;
@@ -604,10 +541,7 @@ body {
         min-height: 44px; /* Apple's recommended minimum touch target */
     }
     
-    /* Better spacing for mobile */
-    .form-fields {
-        margin-bottom: 25px;
-    }
+
     
     /* Improve notification positioning on mobile */
     .notification {
